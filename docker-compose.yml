@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  realtime_server:
+    container_name: "RealtimeServer"
+    build: realtime_server
+    ports:
+      - "5001:5000"
+  rest_api:
+    container_name: "RESTApi"
+    build: rest_api
+    ports:
+      - "5000:5000"
+  redis:
+    image: "redis:alpine"
