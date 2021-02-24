@@ -4,8 +4,9 @@ import redis
 from flask import Flask, send_from_directory
 from flask import jsonify
 import random
-
+from flask_cors import CORS
 app = Flask(__name__, static_folder='frontend/build')
+CORS(app)
 
 cache = redis.Redis(host='redis', port=6379)
 
