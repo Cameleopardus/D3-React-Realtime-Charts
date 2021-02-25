@@ -4,4 +4,4 @@ This application is an example of realtime updating charts built with React/Redu
 You can see a video of it in action [Here](https://www.loom.com/share/9d6bfc839a834d8bb0982e4ddb7a489e)
 
 ![logos](https://github.com/Cameleopardus/D3-React-Realtime-Charts/blob/main/.readme_images/logos.png?raw=true)
-![screenshot](https://github.com/Cameleopardus/D3-React-Realtime-Charts/blob/main/.readme_images/realtimechartsscreenshot.png?raw=true)
+![screenshot](https://github.com/Cameleopardus/D3-React-Realtime-Charts/blob/main/.readme_images/realtime_charts.gif?raw=true)
