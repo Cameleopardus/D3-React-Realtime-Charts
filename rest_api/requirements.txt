@@ -1,2 +1,5 @@
+flask-socketio==4.3.2
+flask-cors
 flask
+requests
 redis
